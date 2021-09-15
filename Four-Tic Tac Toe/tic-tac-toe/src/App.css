@@ -1,0 +1,25 @@
+#root{
+  background-color: #264653;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 35px;
+  color: #585656;
+}
+h1{
+  color: #ffffff;
+}

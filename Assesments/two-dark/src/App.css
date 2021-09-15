@@ -1,0 +1,26 @@
+header{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: larger;
+}
+button{
+    padding: 10px 30px;
+    position: absolute;
+    margin: auto;
+    bottom:20px;
+    
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 50%;width: 50%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
